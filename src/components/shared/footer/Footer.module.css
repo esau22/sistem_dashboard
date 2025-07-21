@@ -1,0 +1,124 @@
+.footer {
+  width: 100%;
+  border-top: 1px solid #e5e7eb;
+  color: var(--color-text);
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logoSection {
+  grid-column: span 2;
+  color: var(--color-primary);
+  margin-top: -1rem;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+  max-width: 300px;
+  margin-top: 1rem;
+}
+
+.contactButton {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: var(--color-secundary);
+}
+
+.menu {
+  min-width: 150px;
+}
+
+.menuTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.menuList {
+  list-style: none;
+}
+
+.menuList a {
+  display: block;
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.menuList a:hover {
+  color: var(--color-primary);
+}
+
+.subscribe {
+  max-width: 200px;
+}
+
+.subscribeButton {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, var(--color-primary), #8b5cf6);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.875rem;
+  align-items: center;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  justify-self: end;
+}
+
+.socials a {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials a:hover {
+  background-color: var(--color-primary);
+}

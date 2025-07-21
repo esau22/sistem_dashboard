@@ -1,0 +1,29 @@
+.logo {
+  font-size: 1.5rem;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease-out;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: var(--color-secundary);
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-secundary);
+  transform: translateX(-105%);
+  transition: transform 0.3s ease-out;
+}
+
+.logo:hover .underline {
+  transform: translateX(0);
+}
