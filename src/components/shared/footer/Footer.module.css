@@ -32,21 +32,6 @@
   margin-top: 1rem;
 }
 
-.contactButton {
-  padding: 0.5rem 1rem;
-  background-color: var(--color-primary);
-  color: white;
-  border: none;
-  border-radius: 9999px;
-  font-size: 0.75rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.contactButton:hover {
-  background-color: var(--color-secundary);
-}
-
 .menu {
   min-width: 150px;
 }
@@ -107,18 +92,16 @@
   justify-self: end;
 }
 
-.socials a {
-  background-color: #e0e0e0;
-  border: none;
-  padding: 0.5rem;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background 0.3s;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.icon {
+  color: var(--color-primary); /* text-primary */
+  width: 1.75rem; /* size-7 = 28px */
+  height: 1.75rem;
+  border-radius: 9999px; /* rounded-full */
+  padding-top: 0.25rem; /* pt-1 = 4px */
+  padding-bottom: 0.25rem; /* pb-1 = 4px */
+  transition: color 300ms ease-out; /* duration-300 + ease-out */
 }
 
-.socials a:hover {
-  background-color: var(--color-primary);
+.icon:hover {
+  color: var(--color-secundary); /* Tailwind's blue-500 */
 }

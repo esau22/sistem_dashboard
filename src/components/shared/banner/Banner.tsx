@@ -29,12 +29,12 @@ const Banner = () => {
 
             <div>
               <h3 className={styles.title}>
-                ultimate <br />
-                <span>sale</span>
+                ¡Precios bajos! <br />
+                <span>todos los días</span>
               </h3>
-              <p className={styles.subtitle}>new collection</p>
+              <p className={styles.subtitle}>Nuevos productos disponibles</p>
               <Link href="/products" className={styles.button}>
-                shop now
+                Comprar ahora
               </Link>
             </div>
 

@@ -26,7 +26,7 @@ const Header = () => {
         <div className={styles.container}>
           <Logo />
           <div className={styles.actions}>
-            <Link href={"/auth"} className={styles.button}>
+            <Link href={"/auth/login"} className={styles.button}>
               Iniciar Sesión
             </Link>
             <button

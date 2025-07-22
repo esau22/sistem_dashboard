@@ -42,10 +42,9 @@ const Footer = () => {
           <div className={styles.logoSection}>
             <Logo />
             <p className={styles.description}>
-              Trusted in more than 100 countries & 5 million customers. Have any
-              query?
+              Elegido cada día por quienes valoran calidad y cercanía. ¿En qué
+              podemos ayudarte?
             </p>
-            <button className={styles.contactButton}>Contact</button>
           </div>
 
           {footerData?.menus.map((item, index) => (
@@ -79,7 +78,7 @@ const Footer = () => {
           <div className={styles.socials}>
             {footerData.socialIcons.map((icon) => (
               <Link key={icon.name} href={icon.link}>
-                <icon.icon />
+                <icon.icon className={styles.icon} />
               </Link>
             ))}
           </div>
